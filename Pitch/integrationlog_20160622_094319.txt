@@ -1,0 +1,787 @@
+### Evaluating "bdclose all"
+### The following files are being used ...
+### BUILD_DIR = 'D:\Users\204050978\Desktop\CVS\HEAD\SD\SW\Simulink'
+	C:\Program Files (x86)\GE Energy\SimulinkBlockLib\StandardLib.mdl
+	$BUILD_DIR\BusStructure.m
+	$BUILD_DIR\Cu\Cu_LocalBus.m
+	$BUILD_DIR\Cu\Cu_TASK_Libs.mdl
+	$BUILD_DIR\Curt\Curt_LocalBus.m
+	$BUILD_DIR\Curt\Curt_TASK_Libs.mdl
+	$BUILD_DIR\DrvTr\DrvTr_LocalBus.m
+	$BUILD_DIR\DrvTr\DrvTr_TASK_Libs.mdl
+	$BUILD_DIR\DynCtlALCComm\ALC_Functions.mdl
+	$BUILD_DIR\DynCtlALCComm\DynCtlALCComm_LocalBus.m
+	$BUILD_DIR\DynCtlALCComm\DynCtlALCComm_TASK_Libs.mdl
+	$BUILD_DIR\DynCtlGen0\DynCtlGen0_LocalBus.m
+	$BUILD_DIR\DynCtlGen0\DynCtlGen0_TASK_Libs.mdl
+	$BUILD_DIR\DynCtlGen0\Gen0_Lib.mdl
+	$BUILD_DIR\DynCtlGen1\DynCtlGen1_LocalBus.m
+	$BUILD_DIR\DynCtlGen1\DynCtlGen1_TASK_Libs.mdl
+	$BUILD_DIR\DynCtlMBCData\DynCtlMBCData_LocalBus.m
+	$BUILD_DIR\DynCtlMBCData\DynCtlMBCData_TASK_Libs.mdl
+	$BUILD_DIR\DynCtlMBC\DynCtlMBC_LocalBus.m
+	$BUILD_DIR\DynCtlMBC\DynCtlMBC_TASK_Libs.mdl
+	$BUILD_DIR\DynCtlMBC\MBC_ctrl_lib.mdl
+	$BUILD_DIR\DynCtlMBC\RICLib.mdl
+	$BUILD_DIR\DynCtlMBC\SetptLib.mdl
+	$BUILD_DIR\DynCtl\DynCtl_LocalBus.m
+	$BUILD_DIR\DynCtl\DynCtl_TASK_Libs.mdl
+	$BUILD_DIR\Envr\Envr_LocalBus.m
+	$BUILD_DIR\Envr\Envr_TASK_Libs.mdl
+	$BUILD_DIR\Gbx\Gbx_LocalBus.m
+	$BUILD_DIR\Gbx\Gbx_TASK_Libs.mdl
+	$BUILD_DIR\Gen\Gen_LocalBus.m
+	$BUILD_DIR\Gen\Gen_TASK_Libs.mdl
+	$BUILD_DIR\In\In_LocalBus.m
+	$BUILD_DIR\In\In_TASK_Libs.mdl
+	$BUILD_DIR\MBCEstData\MBCEstData_LocalBus.m
+	$BUILD_DIR\MBCEstData\MBCEstData_TASK_Libs.mdl
+	$BUILD_DIR\MBCEst\KalmanLib.mdl
+	$BUILD_DIR\MBCEst\MBCEst_LocalBus.m
+	$BUILD_DIR\MBCEst\MBCEst_TASK_Libs.mdl
+	$BUILD_DIR\Macro.m
+	$BUILD_DIR\OpCtlMonitor\OpCtlMonitor_LocalBus.m
+	$BUILD_DIR\OpCtlMonitor\OpCtlMonitor_TASK_Libs.mdl
+	$BUILD_DIR\OpCtl\OpCtl_LocalBus.m
+	$BUILD_DIR\OpCtl\OpCtl_TASK_Libs.mdl
+	$BUILD_DIR\Out\Out_LocalBus.m
+	$BUILD_DIR\Out\Out_TASK_Libs.mdl
+	$BUILD_DIR\Parameters.m
+	$BUILD_DIR\Pitch\Pitch_Functions.mdl
+	$BUILD_DIR\Pitch\Pitch_LocalBus.m
+	$BUILD_DIR\Pitch\Pitch_TASK_Libs.mdl
+	$BUILD_DIR\ServiceMaster\ServiceMaster_LocalBus.m
+	$BUILD_DIR\ServiceMaster\ServiceMaster_TASK_Libs.mdl
+	$BUILD_DIR\Service\Service_LocalBus.m
+	$BUILD_DIR\Service\Service_TASK_Libs.mdl
+	$BUILD_DIR\TDGen0Gen1\TDGen0Gen1_LocalBus.m
+	$BUILD_DIR\TDGen0Gen1\TDGen0Gen1_TASK_Libs.mdl
+	$BUILD_DIR\Tower\Tower_LocalBus.m
+	$BUILD_DIR\Tower\Tower_TASK_Libs.mdl
+	$BUILD_DIR\TurbineConf\TurbineConf_LocalBus.m
+	$BUILD_DIR\TurbineConf\TurbineConf_TASK_Libs.mdl
+	$BUILD_DIR\TurbineDataBlade\TurbineDataBlade_LocalBus.m
+	$BUILD_DIR\TurbineDataBlade\TurbineDataBlade_TASK_Libs.mdl
+	$BUILD_DIR\TurbineDataGenerator\TurbineDataGenerator_LocalBus.m
+	$BUILD_DIR\TurbineDataGenerator\TurbineDataGenerator_TASK_Libs.mdl
+	$BUILD_DIR\WindLib\WindLib.mdl
+	$BUILD_DIR\Yaw\Yaw_Library.mdl
+	$BUILD_DIR\Yaw\Yaw_LocalBus.m
+	$BUILD_DIR\Yaw\Yaw_TASK_Libs.mdl
+	built-in (c:\apps\Matlab\v2006b\Local\toolbox\simulink\blocks\simulink)
+Warning: Signal "Gen_RatedPowerRotBearingTemp" in bus "DrvTr_TempContol_GlobalData" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Gen_PowerLimitRotBearingTemp" in bus "DrvTr_TempContol_GlobalData" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybrid" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybridState" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybrid_Retro" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_Unlocked" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_SpdRatioMajor" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_SpdRatioMinor" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_RPH_RotPosUnknown" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_Unlocked" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_RatioMajor" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_RatioMinor" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_PA_TowerAccelDownwind" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_PA_TowerAccelToGenSide" in bus "DynCtl_PitchAccel_Live" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybrid" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybridState" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybrid_Retro" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_Unlocked" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_SpdRatioMajor" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_SpdRatioMinor" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_RPH_RotPosUnknown" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_Unlocked" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_RatioMajor" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_RatioMinor" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_PA_TowerAccelDownwind" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_PA_TowerAccelToGenSide" in bus "DynCtl_PitchAccel_Stub" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybrid" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybridState" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_RotorPosHybrid_Retro" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_Unlocked" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_SpdRatioMajor" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_ErrRPH_SpdRatioMinor" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_DynCtl_RPH_RotPosUnknown" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_Unlocked" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_RatioMajor" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_Count_ErrRPH_RatioMinor" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_PA_TowerAccelDownwind" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DynCtl_PA_TowerAccelToGenSide" in bus "DynCtl_PitchAccel" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "Add1Pitch" in bus "TempRndPert_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "Add2Pitch" in bus "TempRndPert_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "Add3Pitch" in bus "TempRndPert_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "AddTorque" in bus "TempRndPert_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "WindEstimWindSpeed" in bus "TempRndPert_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "WindEstimTI" in bus "TempRndPert_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "WindEstimStatus" in bus "TempRndPert_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "Envr_SafetyChainCheckPending" in bus "Envr_SafeChainCheckPend1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "Envr_SafetyChainCheckPending" in bus "Envr_SafeChainCheckPend2X1XPlus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Envr_RemoteUpsOff" in bus "Cabinet_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "DI_In_Blade2LubePressureSwitchOn" in bus "LocalBus_In_ExtInputs" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DI_In_Blade3LubePressureSwitchOn" in bus "LocalBus_In_ExtInputs" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "DI_In_CuFastDiscActive" in bus "LocalBus_In_ExtInputs" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "In_LocalDayofYear" in bus "Bus_Clock_InInputs" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "In_MBCEst_SpeedWind_Avg" in bus "Bus_IntInput40ms" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_In_WFWM_TorqueFactorActive" in bus "Bus_In_GlobalData40ms" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_0degLSMinPitch" in bus "OpCtl_MainState_GlobalData" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_PitchMinUnderP1" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_PitchMin_P1toP2" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_PitchMin_P2toP3" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_PitchMin_P3toP4" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_PitchMinAboveP4" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_PitchMinPeakShaver" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_AvgForPitchMinAdjustTime" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_FilteredStartPwrPeakSh2" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_FilterStartPitchPeakSh2" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "OpCtl_FdrPitchMinOfPower" in bus "OpCtl_PitchLimits_GlobalData" was set to transfer, but the signal already exists in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_TestRequiredStored_L" in bus "Pitch_BattMonitor_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_TestRequiredStored_L" in bus "Pitch_BattMonitor_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AngleAsymHalfTime_L" in bus "Pitch_SysMonitor_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AngleAsymWarn_L" in bus "Pitch_SysMonitor_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_PitchThysitor3" in bus "Pitch_SysMonitor_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_PitchThysitor2" in bus "Pitch_SysMonitor_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_PitchThysitor1" in bus "Pitch_SysMonitor_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AngleAsymHalfTime_L" in bus "Pitch_SysMonitor_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AngleAsymWarn_L" in bus "Pitch_SysMonitor_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_PitchThysitor3" in bus "Pitch_SysMonitor_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_PitchThysitor2" in bus "Pitch_SysMonitor_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_PitchThysitor1" in bus "Pitch_SysMonitor_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor1CurrentOk_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor2CurrentOk_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor3CurrentOk_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor1OverTemp_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor2OverTemp_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor3OverTemp_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Batt1VoltOK_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Batt2VoltOK_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Batt3VoltOK_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_BattDrvNotBreak_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_SeviceSwitchOn_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor1TempWarn_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor2TempWarn_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor3TempWarn_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AutoRunPermA1_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AutoRunPermA2_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AutoRunPermA3_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_CommunAEPA1Ok_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_CommunAEPA2Ok_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_CommunAEPA3Ok_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_UnitMalfunc_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_BattChargeVoltOK_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_BattLockOutSw_L" in bus "Pitch_PitchIO_LocalData1X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor1CurrentOk_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor2CurrentOk_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor3CurrentOk_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor1OverTemp_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor2OverTemp_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor3OverTemp_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Batt1VoltOK_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Batt2VoltOK_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Batt3VoltOK_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_BattDrvNotBreak_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_SeviceSwitchOn_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor1TempWarn_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor2TempWarn_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_Motor3TempWarn_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AutoRunPermA1_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AutoRunPermA2_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_AutoRunPermA3_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_CommunAEPA1Ok_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_CommunAEPA2Ok_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_CommunAEPA3Ok_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_UnitMalfunc_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_BattChargeVoltOK_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Pitch_BattLockOutSw_L" in bus "Pitch_PitchIO_LocalData2X" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Yaw_YPBSysTestRequstMoveLeft" in bus "YawPowerBackupFalse_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Yaw_YPBSysTestRequestMoveRight" in bus "YawPowerBackupFalse_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Yaw_YPBSysTestRequstMoveLeft" in bus "YawPowerBackup_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+Warning: Signal "B_Yaw_YPBSysTestRequestMoveRight" in bus "YawPowerBackup_LocalBus" was not set to transfer and does not exist in global bus file "Main_BusStructure"
+### Output Directory: OUT_DIR = D:\Users\204050978\Desktop\CVS\HEAD\SD\SW\Simulink\Pitch\Main_WTG_Build
+### Evaluating "clear"
+### Evaluating "Main_LocalBusStructure_BusInit", File Location: "$OUT_DIR\Main_LocalBusStructure_BusInit.m"
+### Evaluating "Main_BusStructure_BusInit", File Location: "$OUT_DIR\Main_BusStructure_BusInit.m"
+### Evaluating "Main_LocalBusStructure", File Location: "$OUT_DIR\Main_LocalBusStructure.m"
+### Evaluating "Main_Parameters", File Location: "$OUT_DIR\Main_Parameters.m"
+Warning: Switching 'double' data type to 'auto' for parameter object.
+Warning: Switching 'double' data type to 'auto' for parameter object.
+### Evaluating "Main_Macro", File Location: "$OUT_DIR\Main_Macro.m"
+### Evaluating "Main_BusStructure", File Location: "$OUT_DIR\Main_BusStructure.m"
+Warning: Adding a Stub Output for Signal "W_In_TyphoonCtrlCmdOn" in bus "Bus_WebCommands"
+Warning: Adding a Stub Output for Signal "W_In_TyphoonCtrlCmdOff" in bus "Bus_WebCommands"
+Warning: Adding a Stub Output for Signal "DI_In_TbSliceIOCommFail" in bus "LocalBus_In_ExtInputs"
+Warning: Adding a Stub Output for Signal "DI_In_TbAbsYawEncCommFail" in bus "LocalBus_In_ExtInputs"
+Warning: Adding a Stub Output for Signal "DI_In_TbPPRFLinkOK" in bus "LocalBus_In_ExtInputs"
+Warning: Adding a Stub Output for Signal "DI_In_YpbDCChgBkClosed" in bus "LocalBus_In_ExtInputs"
+Warning: Deleting unconnected signal "DI_In_YpbCDChgBkClosed" in "EXCL_In_ExtInputs"
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_04_00_In_PitchCom/USRB_In_PitchCom" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Deleting unused port "Bus_IntInput" in "TASK_04_00_In_Yaw"
+Warning: Deleting undefined signal "B_In_DefaultNVRAM" in "TASK_04_00_In_Yaw"
+Warning: Deleting undefined signal "Curt_ConfigStopAuxMaxEn" in "TASK_04_00_In_MiscSensors"
+Warning: Deleting undefined signal "Curt_ConfigStopAuxMinEn" in "TASK_04_00_In_MiscSensors"
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_01_00_In_FlexCustomInput/USRB_FlexCustomInputSelectionBlock1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_01_00_In_FlexCustomInput/USRB_FlexCustomInputSelectionBlock2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_01_00_In_FlexCustomInput/USRB_FlexCustomInputSelectionBlock3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_01_00_In_FlexCustomInput/USRB_FlexCustomInputSelectionBlock4" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_01_00_In_FlexCustomInput/USRB_FlexCustomInputSelectionBlock5" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_01_00_In_FlexCustomInput/USRB_FlexCustomInputSelectionBlock6" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Adding a Stub Output for Signal "In_MBCEst_SpeedWind_Avg" in bus "Bus_IntInput"
+Warning: Deleting unused port "Bus_Temp_InInputs" in "TASK_01_00_In_IntInput"
+Warning: Deleting unconnected signal "Instance_PROGInMBC" in "TASK_01_00_In_IntInput"
+Warning: Adding a Stub Output for Signal "B_In_GridLvrtTrigEnable" in bus "Bus_In_GlobalData40ms"
+Warning: Deleting undefined signal "DI_In_bPCH_ProfiStatNonExist" in "TASK_04_00_In_IntInput40ms"
+Warning: Deleting undefined signal "In_WindSpd" in "TASK_04_00_In_IntInput40ms"
+Warning: Deleting undefined signal "In_WindSpd" in "TASK_04_00_In_IntInput40ms"
+Warning: Deleting undefined signal "In_WindSpd10secAvg" in "TASK_04_00_In_IntInput40ms"
+Warning: Deleting undefined signal "In_WindSpd10secAvg" in "TASK_04_00_In_IntInput40ms"
+Warning: Deleting unconnected signal "MultiplierCycleTime" in "TASK_04_00_In_IntInput40ms"
+Warning: Deleting local bus port "Bus_WTG_Commands1" in "TASK_04_02_In_IntInput40msO2". Port name does not resolve to a bus object
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_04_02_In_IntInput40msO2/USRB_In_TriggerSunCalc" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_In/TASK_04_02_In_IntInput40msO2/USRB_In_WindInputs/USRB_In_WindSpeed/USRB_TFParameterCheck" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Deleting unconnected signal "Instance_PROGInMBC" in "TASK_04_02_In_IntInput40msO2"
+Warning: Deleting unused port "Bus_IntInput" in "TASK_04_03_In_Temp"
+Warning: Deleting undefined signal "In_WFWMTorqueCorrectFactor" in "TASK_04_03_In_Temp"
+Warning: Adding a Stub Output for Global Signal "SM_In_LossTimeSynch"
+Warning: Adding a Stub Output for Global Signal "In_SelectedWindDirThies2D"
+Warning: Adding a Stub Output for Global Signal "DI_In_PPRFY2LinkOK_L"
+Warning: Adding a Stub Output for Global Signal "DI_In_PDIOY1LinkOK_L"
+Warning: Adding a Stub Output for Global Signal "C_In_DirCurtOvrDisable"
+Warning: Adding a Stub Output for Global Signal "AI_In_CuPDCTemp"
+Warning: Adding a Stub Output for Global Signal "AI_In_TrafoOillTemp"
+Warning: Adding a Stub Output for Global Signal "AI_In_CuCFCTemp"
+Warning: Adding a Stub Output for Global Signal "AI_In_GridMonAppPowerAct"
+Warning: Adding a Stub Output for Global Signal "AI_In_CuCoolantTemp"
+Warning: Adding a Stub Output for Global Signal "B_Cu_FaultResSafetyChainCheck"
+Warning: Adding a Stub Output for Global Signal "In_LocalTimeOfDay"
+Warning: Adding a Stub Output for Global Signal "In_CuReacPowerAct"
+Warning: Adding a Stub Output for Global Signal "In_CuTorqueAct"
+Warning: Changing Execution Order from "2" to "3" for "TASK_04_01_Tower_TwrVibrMon1X"
+Warning: Changing Execution Order from "3" to "4" for "TASK_04_01_Tower_TwrVibrMon2X"
+Warning: Changing Execution Order from "4" to "5" for "EXCL_Switching"
+Warning: Adding a Stub Output for Signal "OpCtl_BrakeProc" in bus "OpCtl_MonitorStatus_GlobalData"
+Warning: Adding a Stub Output for Signal "B_OpCtl_E2MCTorqueLoss" in bus "OpCtl_MonitorStatus_GlobalData"
+Warning: Adding a Stub Output for Signal "B_OpCtl_BrakeProc5_or_6x" in bus "OpCtl_MonitorStatus_GlobalData"
+Warning: Adding a Stub Output for Signal "OpCtl_E2MCInstalledVersion" in bus "OpCtl_MonitorStatus_GlobalData"
+Warning: Deleting undefined signal "SM_OpCtl_MultipleOverTemp" in "TASK_04_00_OpCtlMonitor_MonitorStatus"
+Warning: Adding a Stub Output for Signal "OpCtl_StallPitchMin" in bus "OpCtl_PitchLimits_GlobalData"
+Warning: Adding a Stub Output for Signal "SM_OpCtl_BldClrOptMode" in bus "OpCtl_MainState_StatusMsgs"
+Warning: Deleting unconnected signal "B_OpCtl_LVRTExtended" in "TASK_04_00_OpCtl_MainState"
+Warning: Deleting unconnected signal "B_OpCtl_SpdRegulatorDisabled" in "TASK_04_00_OpCtl_MainState"
+Warning: Adding a Stub Output for Global Signal "DO_OpCtlDeIcingActive"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_SpdRegulatorDisabled"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_LVRTExtended"
+Warning: Adding a Stub Output for Global Signal "OpCtl_PitchMinSummary"
+Warning: Adding a Stub Output for Global Signal "OpCtl_SpeedMode"
+Warning: Adding a Stub Output for Global Signal "OpCtl_TipSpeedRatio"
+Warning: Adding a Stub Output for Global Signal "OpCtl_TempOutsideAirLimitStall"
+Warning: Adding a Stub Output for Global Signal "OpCtl_DensityCalcFactor"
+Warning: Adding a Stub Output for Global Signal "OpCtl_StallCounter"
+Warning: Adding a Stub Output for Global Signal "OpCtl_IceCounter"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_E2MCTorqueLoss"
+Warning: Adding a Stub Output for Global Signal "B_WindBoostEnabled"
+Warning: Adding a Stub Output for Global Signal "OpCtlGenOverSpeedWindBoost"
+Warning: Adding a Stub Output for Global Signal "OpCtlRotOverSpeedWindBoost"
+Warning: Adding a Stub Output for Global Signal "OpCtlGenOverSpeed2WindBoost"
+Warning: Adding a Stub Output for Global Signal "OpCtlRotOverSpeed2WindBoost"
+Warning: Adding a Stub Output for Global Signal "OpCtlTempMinWindBoost"
+Warning: Adding a Stub Output for Global Signal "OpCtlPMAX_PEAK_WindBoost"
+Warning: Adding a Stub Output for Global Signal "OpCtlPMAX_PEAK_BAAWindBoost"
+Warning: Adding a Stub Output for Global Signal "OpCtlDensityRef"
+Warning: Adding a Stub Output for Global Signal "OpCtlDensityMax"
+Warning: Adding a Stub Output for Global Signal "OpCtlMaxWindBoostFactor"
+Warning: Adding a Stub Output for Global Signal "OpCtlTorqueOffsetAddWB"
+Warning: Adding a Stub Output for Global Signal "OpCtlTorqueOffsetSubWB"
+Warning: Adding a Stub Output for Global Signal "PitchMinSchedulePower1BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMinSchedulePower2BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMinSchedulePower3BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMinSchedulePower4BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMinUnderP1BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMin_P1toP2BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMin_P2toP3BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMin_P3toP4BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMinAboveP4BCOM"
+Warning: Adding a Stub Output for Global Signal "PitchMinPeakShaverBCOM"
+Warning: Adding a Stub Output for Global Signal "AvgForPitchMinAdjustTimeBCOM"
+Warning: Adding a Stub Output for Global Signal "TowerAccelThreshhold"
+Warning: Adding a Stub Output for Global Signal "TowerAccelSensitivity"
+Warning: Adding a Stub Output for Global Signal "LongDurWindDeviationCount"
+Warning: Adding a Stub Output for Global Signal "ShortDurWindDeviationCount"
+Warning: Adding a Stub Output for Global Signal "ZeroTripDisablePeriod"
+Warning: Adding a Stub Output for Global Signal "BCOMSwitchValue"
+Warning: Adding a Stub Output for Global Signal "BCOMWindDevCount"
+Warning: Adding a Stub Output for Global Signal "BCOMWindDevThreshold"
+Warning: Adding a Stub Output for Global Signal "BCOMWindDevPeriod"
+Warning: Adding a Stub Output for Global Signal "BCOMWindSpdCount"
+Warning: Adding a Stub Output for Global Signal "BCOMWindSpdThreshold"
+Warning: Adding a Stub Output for Global Signal "BCOMWindSpdPeriod"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_BladeCalDue"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_TowerCalDue"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_BladeTestOverspeed"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_BladeTestUnderspeed"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_BladeTestConditions"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_TowerTestConditions"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_BladeCalWaitRetry"
+Warning: Adding a Stub Output for Global Signal "B_OpCtl_ModelInit"
+Warning: Adding a Stub Output for Global Signal "OpCtl_0degLSMinPich"
+Warning: Adding a Stub Output for Signal "MBCEst_ResultMomBld123Max10min" in bus "MBCEst_PostFilter_LocalBus_0"
+Warning: Adding a Stub Output for Signal "MBCEst_ResultMomBld123Max10min" in bus "MBCEst_PostFilter_LocalBus_3"
+Warning: Deleting undefined signal "OpCtl_0degLSMinPitch" in "TASK_04_03_DynCtl_Pitch"
+Warning: Deleting undefined signal "OpCtl_0degLSMinPitch" in "TASK_04_03_DynCtl_Pitch"
+Warning: Deleting undefined signal "OpCtl_0degLSMinPitch" in "TASK_04_03_DynCtl_Pitch"
+Warning: Adding a Stub Output for Global Signal "DynCtl_PwrCmdUpSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlDeadbandUpSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlDeadbandLoSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlInWOFiltLowerLimit"
+Warning: Adding a Stub Output for Global Signal "DynCtlSpdPwrSpdLoSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlSpdPrPwrHiSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlSpdPrSpdHiSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlPwrSlopeHiSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlPwrSlopeLoSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlSpdPrFiltTCnstWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlPwrSGainWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlPwrSPwrSLHiSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlPwrSPwrSLLoSPWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlInWOFiltUpperLimit"
+Warning: Adding a Stub Output for Global Signal "DynCtlPwrSFiltTCnstWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlSpdFiltTCnstWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlSpdFiltGainWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlInWOFiltTCnstWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlOutWOFiltTCnstWInertia"
+Warning: Adding a Stub Output for Global Signal "DynCtlTestPeriodWI"
+Warning: Adding a Stub Output for Global Signal "DynCtl_MomDQ_Disagree_MT"
+Warning: Adding a Stub Output for Global Signal "DynCtl_MomDQ_IdleMag_MT"
+Warning: Adding a Stub Output for Signal "Instance_TASKPitch_PitchBRF2X" in bus "InstLogic_Pitch"
+Warning: Deleting unconnected signal "Instance_TASKPitch_PitchBRF2x" in "EXCL_InstanceLogic_sim"
+Warning: Adding a Stub Output for Signal "SM_Pitch_MinPitchExceeded" in bus "Pitch_SysMonitorStatusMsgs2X"
+Warning: Adding a Stub Output for Signal "DO_Pitch_LubePump2GreaseOn" in bus "Pitch_Lubr_GlobalDataAutoLube"
+Warning: Adding a Stub Output for Signal "DO_Pitch_LubePump3GreaseOn" in bus "Pitch_Lubr_GlobalDataAutoLube"
+Warning: Adding a Stub Output for Signal "DO_Pitch_LubePump2GreaseOn" in bus "Pitch_Lubr_GlobalDataStub"
+Warning: Adding a Stub Output for Signal "DO_Pitch_LubePump3GreaseOn" in bus "Pitch_Lubr_GlobalDataStub"
+Warning: Adding a Stub Output for Signal "B_Pitch_ChargTimeElapsed" in bus "Pitch_BatteryMonitor1X"
+Warning: Deleting unconnected signal "B_Pitch_PSSTActive" in "TASK_04_00_Pitch_BattMonitor1X"
+Warning: Adding a Stub Output for Global Signal "B_BRFtoBRFTimeExceeded"
+Warning: Changing Execution Order from "3" to "1" for "TASK_01_00_Cu_OpCtl"
+Warning: Changing Execution Order from "5" to "2" for "TASK_01_00_Cu_Monitoring"
+Warning: Changing Execution Order from "7" to "3" for "TASK_01_00_Cu_SMHandling"
+Warning: Changing Execution Order from "9" to "4" for "TASK_04_02_Cu_Models"
+Warning: Adding a Stub Output for Signal "Cu_TorqueCurveMax" in bus "Cu_Models_GlobalData"
+Warning: Adding a Stub Output for Signal "CU_MaxEstimatedPower" in bus "Cu_Models_GlobalData"
+Warning: Changing Execution Order from "10" to "5" for "TASK_01_00_Cu_CircuitBreaker"
+Warning: Adding a Stub Output for Global Signal "SM_Cu_PowerlimitationCCU"
+Warning: Adding a Stub Output for Global Signal "DO_Cu_WtgConnectedToGrid"
+Warning: Adding a Stub Output for Global Signal "AO_Cu_PLCDiag1"
+Warning: Adding a Stub Output for Global Signal "DO_Cu_PLCDiag2"
+Warning: Deleting unconnected signal "Instance_SpdMon2xLowPrecSpd" in "EXCL_InstanceLogic_sim"
+Warning: Adding a Stub Output for Global Signal "B_DrvTr_BrakeTestResetTimer_LL"
+Warning: Adding a Stub Output for Global Signal "B_DrvTr_MainBearLubFault_MOP"
+Warning: Adding a Stub Output for Global Signal "DrvTr_MainBearLubTime_MOP"
+Warning: Adding a Stub Output for Global Signal "DrvTr_TimeLastMBL_MOP"
+Warning: Adding a Stub Output for Global Signal "DrvTr_MBLTripTimer_MOP"
+Warning: Adding a Stub Output for Global Signal "B_DrvTr_MainBearClogLong_MOP"
+Warning: Adding a Stub Output for Signal "DO_Gbx_TbLubOilCoolFanLow" in bus "Gbx_Cooler_Outputs1XPlus"
+Warning: Adding a Stub Output for Signal "DO_Gbx_TbOilCoolFanHigh" in bus "Gbx_Cooler_Outputs1XPlus"
+Warning: Adding a Stub Output for Signal "DO_Gbx_TbOilCoolFan2High" in bus "Gbx_Cooler_Outputs1XPlus"
+Warning: Deleting unconnected signal "B_Gbx_LubOilCoolFanLow" in "TASK_04_01_Gbx_Cooler1XPlus"
+Warning: Deleting unconnected signal "B_Gbx_OilCoolFan2High" in "TASK_04_01_Gbx_Cooler1XPlus"
+Warning: Deleting unconnected signal "B_Gbx_OilCoolFanHigh" in "TASK_04_01_Gbx_Cooler1XPlus"
+Warning: Changing Execution Order from "6" to "7" for "TASK_04_01_Gbx_Cooler2X"
+Warning: Changing Execution Order from "7" to "8" for "EXCL_Switching"
+Warning: Changing Execution Order from "8" to "9" for "TASK_04_01_Gbx_Lubrication1X"
+Warning: Changing Execution Order from "8" to "10" for "TASK_04_01_Gbx_Lubrication1XPlus"
+Warning: Changing Execution Order from "9" to "11" for "TASK_04_01_Gbx_Lubrication2X"
+Warning: Changing Execution Order from "10" to "12" for "EXCL_Switching1"
+Warning: Changing Execution Order from "11" to "13" for "TASK_04_03_Gbx_Filter"
+Warning: Adding a Stub Output for Global Signal "Gbx_PowerLimitStatusWord"
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_MovSensing/USRB_Yaw_PulseEncMoveSense/USRB_Yaw_ReferencingYawSystem" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_MovSensing/USRB_Yaw_PulseEncMoveSense/USRB_Yaw_YawMovingSignal" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Deleting unused port "Outputs" in "TASK_04_01_Yaw_MovSensing"
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_Monitoring/USRB_Yaw_RunAway/USRB_Yaw_YawMovingSignal" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Deleting unused port "Outputs" in "TASK_04_01_Yaw_Monitoring"
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_BatteryConsumption" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_BatteryUndervoltageMonitoring" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_AuxiliaryPowerModeStates" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_RackCabinetPowerModeStates" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_YawPowerBackupModeStates" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_YawPowerBackupStateMachine" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkContactorMonitoring" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringBatteryCharger" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringBatteryCharger/USRB_BreakerMonitoring" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringBatteryCharger/USRB_ChargerAlarm" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringBatteryCharger/USRB_DemandSignals" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringBatteryCharger/USRB_In_YPB_BatteryChargerInterface" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_AuxiliaryVFD" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_AuxiliaryVFD/USRB_AuxVFDAlarm" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_AuxiliaryVFD/USRB_AuxVFDDcCurrent" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_AuxiliaryVFD/USRB_AuxVFDReset" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_AuxiliaryVFD/USRB_AuxVFDSineFilterOverTemp" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_AuxiliaryVFD/USRB_AuxVFDWarning" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_BrakeChopperVFD" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_BrakeChopperVFD/USRB_BCVFDAlarm" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_BrakeChopperVFD/USRB_BCVFDBrakeChopperLevel" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_BrakeChopperVFD/USRB_BCVFDResistorAlarm" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_BrakeChopperVFD/USRB_BCVFDWarning" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDDCCurrent" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDFault" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDReady" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDReset" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDRun" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDStartCmd" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDTorque" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_MonitoringVFD/USRB_YawVFD/USRB_YawVFDWarning" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_BatteryEqualizingTest" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_BatteryEqualizingTest/USRB_RemainTimeForTest" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_BatteryEqualizingTest/USRB_TestSequence" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_BatteryEqualizingTest/USRB_TestThreshold" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_BatteryStorageTest/USRB_RemainTimeForTest" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_BatteryStorageTest/USRB_TestSequence" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_BatteryStorageTest/USRB_TestThreshold" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_YPBSystemTest" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_YPBSystemTest/USRB_RemainTimeForTest" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_YPBSystemTest/USRB_TestSequence" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_TestSequences/USRB_YPBSystemTest/USRB_TestThreshold" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Deleting unused port "Outputs" in "TASK_04_01_Yaw_YawPowerBackup"
+Warning: Deleting unconnected signal "B_Yaw_YPBSystemTestPossible" in "TASK_04_01_Yaw_YawPowerBackup"
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackupStub/USRB_YPB_BatteryConsumptionOff" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackupStub/USRB_YPB_DCLinkChargeOff" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackupStub/USRB_YPB_MonitoringBatteryChargerOff" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackupStub/USRB_YPB_MonitoringVFD" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Deleting unconnected signal "B_Yaw_BrakeChopperLevelFdbOK" in "TASK_04_01_Yaw_YawPowerBackupStub"
+Warning: Deleting unconnected signal "B_Yaw_YPBSystemTestPossible" in "TASK_04_01_Yaw_YawPowerBackupStub"
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_RequestYawMode0" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_RequestYawMode1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_RequestYawMode2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_RequestYawMode3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_YawSwitchingStateMachine" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Deleting unused port "YawMonitoring_LocalBus" in "TASK_04_00_Yaw_PhysicalDev"
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_YawSwitchingStateMachine" must be only only 2 USRB level deep
+Warning: Adding a Stub Output for Global Signal "B_Yaw_RCModeEn"
+Warning: Adding a Stub Output for Global Signal "B_YawVFDModeEn"
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopExternalStopInput" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH4" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH5" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH6" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopStartingTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseSunsetDelay" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunsetTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopExternalStopInput" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH4" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH5" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH6" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopStartingTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseSunsetDelay" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf1/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunsetTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopExternalStopInput" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH4" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH5" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH6" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopStartingTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseSunsetDelay" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf2/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunsetTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopExternalStopInput" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH4" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH5" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH6" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopStartingTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseSunsetDelay" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf3/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunsetTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopExternalStopInput" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH1" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH2" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH3" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH4" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH5" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopHHMMtoH6" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopStartingTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseSunsetDelay" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunriseTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_ConfigurableStop/USRB_Curt_ConfigStopPeriodConf4/USRB_ConfigStopTimeofDay/USRB_ConfigStopSunsetTime" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Setting subsystem block "Main_Build/PROG_Curt/TASK_04_01_Curt_StartStopCommand/USRB_Curt_LightningStrikeDetection/USRB_SignalMapped" to be Atomic. Subystem parameter "TreatAsAtomicUnit" was "off".
+Warning: Adding a Stub Output for Signal "Curt_MaxPowerHighTI" in bus "PowerLimitation_GlobalData"
+Warning: Adding a Stub Output for Signal "B_Curt_PowerLimitHighTI" in bus "PowerLimitation_GlobalData"
+Warning: Deleting unused port "Inputs" in "TASK_04_02_Curt_SpeedLimitation"
+Warning: Deleting undefined signal "B_Curt_HighTISpeedActive" in "TASK_04_02_Curt_SpeedLimitation"
+Warning: Adding a Stub Output for Global Signal "Curt_HighCompTempReduTime"
+Warning: Adding a Stub Output for Global Signal "Curt_HighCompTempProdLoss"
+Warning: Adding a Stub Output for Global Signal "Curt_SensErrALCPowerLmtTime"
+Warning: Adding a Stub Output for Global Signal "Curt_SensErrALCPowerProdLoss"
+Warning: Adding a Stub Output for Global Signal "Curt_ALCRotMapReqPowerLmtTime"
+Warning: Adding a Stub Output for Global Signal "Curt_ALCRotMapReqPowerProdLoss"
+Warning: Adding a Stub Output for Global Signal "Curt_CustGenSpeedLimitReq"
+Warning: Adding a Stub Output for Global Signal "B_Curt_CustGenSpeedLimActive"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirSectorIceEnable"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirManualOverrCmdEn"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirTimeoutOverrEn"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDayTimeOverrEn"
+Warning: Adding a Stub Output for Global Signal "CurtDirSector1LowLimit"
+Warning: Adding a Stub Output for Global Signal "CurtDirSector1UpLimit"
+Warning: Adding a Stub Output for Global Signal "CurtDirSector2LowLimit"
+Warning: Adding a Stub Output for Global Signal "CurtDirSector2UpLimit"
+Warning: Adding a Stub Output for Global Signal "CurtDirSectorHyst"
+Warning: Adding a Stub Output for Global Signal "CurtDirMaxManualOverrTime"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDaySetEnableSun"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDaySetEnableMon"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDaySetEnableTue"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDaySetEnableWed"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDaySetEnableThu"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDaySetEnableFri"
+Warning: Adding a Stub Output for Global Signal "B_CurtDirDaySetEnableSat"
+Warning: Adding a Stub Output for Global Signal "CurtDirStartTime"
+Warning: Adding a Stub Output for Global Signal "CurtDirStopTime"
+Warning: Adding a Stub Output for Global Signal "CurtDirRotSpdSect1"
+Warning: Adding a Stub Output for Global Signal "CurtDirPowerSect1"
+Warning: Adding a Stub Output for Global Signal "CurtDirPitchOffsetSect1"
+Warning: Adding a Stub Output for Global Signal "CurtDirRotSpdSect2"
+Warning: Adding a Stub Output for Global Signal "CurtDirPowerSect2"
+Warning: Adding a Stub Output for Global Signal "CurtDirPitchOffsetSect2"
+Warning: Adding a Stub Output for Global Signal "CurtDirStartTimeOverr"
+Warning: Adding a Stub Output for Global Signal "CurtDirStopTimeOverr"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopPeriod01"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopPeriod02"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopPeriod03"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopPeriod04"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopPeriod05"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunrise"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunset"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualStartTime"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualEndTime"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMin"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMax"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMin"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMax"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMin"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMax"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxHyst"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopTempDelay"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopTimeOfDayEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopManualTimeSetEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMinEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMaxEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMinEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMaxEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMinEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMaxEn"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputAct"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputOverride"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopTimeOfDayEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopTimeOfDayEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopTimeOfDayEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopTimeOfDayEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopManualTimeSetEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopManualTimeSetEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopManualTimeSetEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopManualTimeSetEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunrisePeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunrisePeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunrisePeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunrisePeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunsetPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunsetPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunsetPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopOffsetSunsetPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualStartTimePeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualStartTimePeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualStartTimePeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualStartTimePeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualEndTimePeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualEndTimePeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualEndTimePeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopManualEndTimePeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMinEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMinEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMinEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMinEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMaxEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMaxEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMaxEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopWindspeedMaxEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMinPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMinPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMinPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMinPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMaxPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMaxPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMaxPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopWindspeedMaxPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMinEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMinEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMinEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMinEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMaxEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMaxEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMaxEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAmbAirTempMaxEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMinPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMinPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMinPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMinPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMaxPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMaxPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMaxPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAmbAirTempMaxPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopTempDelayPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopTempDelayPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopTempDelayPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopTempDelayPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMinEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMinEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMinEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMinEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMaxEnPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMaxEnPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMaxEnPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopAuxMaxEnPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMinPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMinPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMinPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMinPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMaxPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMaxPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMaxPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxMaxPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxHystPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxHystPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxHystPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_ConfigStopAuxHystPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputActPeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputActPeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputActPeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputActPeriod5"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputOverridePeriod2"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputOverridePeriod3"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputOverridePeriod4"
+Warning: Adding a Stub Output for Global Signal "B_Curt_ConfigStopExtInputOverridePeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseRestartDuration"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseRestartDurationPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseRestartDurationPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseRestartDurationPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseRestartDurationPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartDuration"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartDurationPeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartDurationPeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartDurationPeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartDurationPeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseStopTime"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseStopTimePeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseStopTimePeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseStopTimePeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_SunriseStopTimePeriod5"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartTime"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartTimePeriod2"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartTimePeriod3"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartTimePeriod4"
+Warning: Adding a Stub Output for Global Signal "Curt_SunsetRestartTimePeriod5"
+Warning: Adding a Stub Output for Global Signal "GenPowerDemandMaxBCOM"
+Warning: Adding a Stub Output for Global Signal "Curt_HighTI_DynCurtTime"
+Warning: Adding a Stub Output for Global Signal "Curt_HighTI_DynCurtLossP"
+Warning: Adding a Stub Output for Signal "Instance_TASKEnvr_GridMon1X1XPlus" in bus "InstLogic_Envr"
+Warning: Adding a Stub Output for Signal "Instance_TASKEnvr_GridMon2X" in bus "InstLogic_Envr"
+Warning: Changing Execution Order from "8" to "7" for "TASK_04_00_Envr_GridMon"
+Warning: Changing Execution Order from "10" to "8" for "TASK_04_02_Envr_ElectricalMon"
+Warning: Changing Execution Order from "11" to "9" for "EXCL_Envr_IntInputs"
+Warning: Changing Execution Order from "12" to "10" for "TASK_04_01_Envr_EnvrSensorsMon"
+Warning: Changing Execution Order from "13" to "11" for "TASK_04_01_Envr_WindMon"
+Warning: Changing Execution Order from "14" to "12" for "TASK_04_01_Envr_GeneralTempMon"
+Warning: Changing Execution Order from "15" to "13" for "TASK_04_01_Envr_CabinetTempMon"
+Warning: Changing Execution Order from "16" to "14" for "TASK_04_01_Envr_HeatupStateMon"
+Warning: Changing Execution Order from "17" to "15" for "TASK_04_02_Envr_DeIcing2X"
+Warning: Changing Execution Order from "18" to "16" for "TASK_04_02_Envr_DeIcing1X1XPlus"
+Warning: Changing Execution Order from "19" to "17" for "EXCL_Switching1"
+Warning: Adding a Stub Output for Global Signal "Envr_TestLVRTVoltOffset"
+Warning: Adding a Stub Output for Global Signal "B_Envr_Test_CuLVRTActive"
+Warning: Adding a Stub Output for Global Signal "B_Envr_MalfunctionUltrasonic"
+Warning: Adding a Stub Output for Global Signal "StormShutdownWindSpdBCOM"
+Warning: Adding a Stub Output for Global Signal "StormShutdownTimeBCOM"
+Warning: Adding a Stub Output for Global Signal "StormGustWindSpdBCOM"
+Warning: Adding a Stub Output for Global Signal "StormGustTimeBCOM"
+Warning: Adding a Stub Output for Global Signal "BladeAngleInLoadMaxBCOM"
+Warning: Adding a Stub Output for Signal "Out_WTGInfoAvailableTimeLM_L1" in bus "OperationStat_GlobalData"
+Warning: Deleting unconnected signal "Out_WTGInfoAvaialbleTimeLM_L1" in "TASK_01_00_Out_OperationStat"
+Warning: Adding a Stub Output for Signal "Out_WTGFPTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGPPTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGTSTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGENTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGRSTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGELTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGSMTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGPCATime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGFOTime_L4" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGGeneratingTime_L3" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGNonGeneratingTime_L3" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGOperativeTime_L2" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGNonOperativeTime_L2" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Signal "Out_WTGInfoAvailableTime_L1" in bus "Totalizer_GlobalData"
+Warning: Adding a Stub Output for Global Signal "B_Out_ForcedVariables"
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1ptX/USRB_Gen_HeaterStateMachine1ptX" has an illegal state name "Gen_Heater_OFF_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1ptX/USRB_Gen_HeaterStateMachine1ptX" has an illegal state name "Gen_Heater_ON_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1ptX/USRB_Gen_HeaterStateMachine1ptX" has an illegal state name "Gen_Heater_Automatic_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1ptX/USRB_Gen_HeaterStateMachine1ptX" has an illegal state name "Gen_Heater_ManualOperation_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1ptX/USRB_Gen_HeaterStateMachine1ptX" has an illegal state name "Gen_HeaterManual_OFF_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1ptX/USRB_Gen_HeaterStateMachine1ptX" has an illegal state name "Gen_HeaterManual_ON_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1xPlus/USRB_Gen_HeaterStateMachine1xPlus" has an illegal state name "Gen_Heater_OFF_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1xPlus/USRB_Gen_HeaterStateMachine1xPlus" has an illegal state name "Gen_Heater_ON_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1xPlus/USRB_Gen_HeaterStateMachine1xPlus" has an illegal state name "Gen_Heater_Automatic_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1xPlus/USRB_Gen_HeaterStateMachine1xPlus" has an illegal state name "Gen_Heater_ManualOperation_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1xPlus/USRB_Gen_HeaterStateMachine1xPlus" has an illegal state name "Gen_HeaterManual_OFF_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater1xPlus/USRB_Gen_HeaterStateMachine1xPlus" has an illegal state name "Gen_HeaterManual_ON_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater2ptX/USRB_Gen_HeaterStateMachine2ptX" has an illegal state name "Gen_Heater_OFF_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater2ptX/USRB_Gen_HeaterStateMachine2ptX" has an illegal state name "Gen_Heater_ON_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater2ptX/USRB_Gen_HeaterStateMachine2ptX" has an illegal state name "Gen_Heater_Automatic_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater2ptX/USRB_Gen_HeaterStateMachine2ptX" has an illegal state name "Gen_Heater_ManualOperation_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater2ptX/USRB_Gen_HeaterStateMachine2ptX" has an illegal state name "Gen_HeaterManual_OFF_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Gen/TASK_04_02_Gen_Heater/USRB_Gen_Heater2ptX/USRB_Gen_HeaterStateMachine2ptX" has an illegal state name "Gen_HeaterManual_ON_". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_OpCtl/TASK_04_00_OpCtl_MainState/USRB_CS_FaultShutDown/USRB_FS_2XPitchSelect_E2MCTr2_3/USRB_FS2xPitchStates" has an illegal state name "E2MCPitchMode". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_OpCtl/TASK_04_00_OpCtl_MainState/USRB_CS_FaultShutDown/USRB_FS_2XPitchSelect_E2MCTr2_3/USRB_FS2xPitchStates" has an illegal state name "E2MCPitchMode". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_OpCtl/TASK_04_00_OpCtl_MainState/USRB_CS_FaultShutDown/USRB_FS_2XPitchSelect_NoE2MC/USRB_FS2xPitchStates" has an illegal state name "FSPitchMode". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_OpCtl/TASK_04_00_OpCtl_MainState/USRB_CS_FaultShutDown/USRB_FS_2XPitchSelect_NoE2MC/USRB_FS2xPitchStates" has an illegal state name "FSPitchMode". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_YawPowerBackupStateMachine" has an illegal state name "YpbDCLink_FullCharge". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_YawPowerBackupStateMachine" has an illegal state name "YpbDCLink_FullCharge". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_YawPowerBackupStateMachine" has an illegal state name "TbDCLink_FullCharge". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_01_Yaw_YawPowerBackup/USRB_YPB_DCLinkCharge/USRB_DCLinkChargeSequencing/USRB_YawPowerBackupStateMachine" has an illegal state name "TbDCLink_FullCharge". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status1/USRB_TripplePitch1Sequencing" has an illegal state name "OFF1_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status1/USRB_TripplePitch1Sequencing" has an illegal state name "FastRamp1_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status1/USRB_TripplePitch1Sequencing" has an illegal state name "FastRamp2_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status1/USRB_TripplePitch1Sequencing" has an illegal state name "SlowRamp_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status2/USRB_TripplePitch2Sequencing" has an illegal state name "FastRamp1_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status2/USRB_TripplePitch2Sequencing" has an illegal state name "FastRamp2_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status3/USRB_TripplePitch3Sequencing" has an illegal state name "OFF1_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status3/USRB_TripplePitch3Sequencing" has an illegal state name "FastRamp1_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status3/USRB_TripplePitch3Sequencing" has an illegal state name "FastRamp2_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Pitch/TASK_04_02_Pitch_SysMonitor2X/USRB_Pitch_BattPitchingTime2X/USRB_Pitch_TriplePitch/USRB_Pitch_Status3/USRB_TripplePitch3Sequencing" has an illegal state name "SlowRamp_Blade". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Hydraulic_Pump_Flush/USRB_Yaw_FlushingLogic/USRB_Yaw_FlushingStates" has an illegal state name "HydrPumpFlushPhase". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Hydraulic_Pump_Flush/USRB_Yaw_FlushingLogic/USRB_Yaw_FlushingStates" has an illegal state name "HydrPumpFlushPhase". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Hydraulic_Pump_Flush/USRB_Yaw_FlushingLogic/USRB_Yaw_FlushingStates" has an illegal state name "HydrPumpFlushPhase". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Hydraulic_Pump_Flush/USRB_Yaw_FlushingLogic/USRB_Yaw_FlushingStates" has an illegal state name "HydrPumpFlushPhase". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Hydraulic_Pump_Flush/USRB_Yaw_FlushingLogic/USRB_Yaw_FlushingStates" has an illegal state name "HydrPumpFlushPhase". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_YawSwitchingStateMachine" has an illegal state name "Mode". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_YawSwitchingStateMachine" has an illegal state name "Mode". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_YawSwitchingStateMachine" has an illegal state name "Mode". All Stateflow States must have a unique names.
+Warning: Stateflow block "Main_Build/PROG_Yaw/TASK_04_00_Yaw_PhysicalDev/USRB_Yaw_PhysicalDev2x/USRB_Yaw_Motor/USRB_Yaw_FinalDemandSensing_TyphoonControl/USRB_Yaw_YawSwitchingSequencing/USRB_Yaw_YawSwitchingStateMachine" has an illegal state name "Mode". All Stateflow States must have a unique names.
+### Saving "Main_Build", File Location: "D:\Users\204050978\Desktop\CVS\HEAD\SD\SW\Simulink\Pitch\Main_WTG_Build"
+### Evaluating Mask Variables used in Inport/Outport for "Main_Build"
+Stateflow parsing for model "Main_Build"...Done
+Stateflow code generation for model "Main_Build"............................................
